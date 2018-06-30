@@ -7,7 +7,6 @@ target 'YGN_Tuitions' do
 
   # Pods for YGN_Tuitions
 
-	pod 'InteractiveSideMenu'
 	pod 'Firebase/Core'
 
   target 'YGN_TuitionsTests' do
