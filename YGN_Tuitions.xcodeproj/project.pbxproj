@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EA63D2ED40CB9DD8D807611 /* Pods_YGN_Tuitions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */; };
+		CBF8B34D11C4AC7EF38C88EB /* Pods_YGN_TuitionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8897DDD69B65F7DBA84B0 /* Pods_YGN_TuitionsTests.framework */; };
 		EA16590620E74F8700C00038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16590520E74F8700C00038 /* AppDelegate.swift */; };
 		EA16590820E74F8700C00038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16590720E74F8700C00038 /* ViewController.swift */; };
 		EA16590B20E74F8700C00038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA16590920E74F8700C00038 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		EA16591020E74F8900C00038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA16590E20E74F8900C00038 /* LaunchScreen.storyboard */; };
 		EA16591B20E74F8A00C00038 /* YGN_TutionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16591A20E74F8A00C00038 /* YGN_TutionsTests.swift */; };
 		EA16592620E74F8A00C00038 /* YGN_TutionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16592520E74F8A00C00038 /* YGN_TutionsUITests.swift */; };
+		EE2D2DCD256888EB7BA28EEC /* Pods_YGN_TuitionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FD9BC1FD8395321CEE9960 /* Pods_YGN_TuitionsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AEFBD6B107FD32D1D31883C /* Pods-YGN_TuitionsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsTests/Pods-YGN_TuitionsTests.release.xcconfig"; sourceTree = "<group>"; };
+		19FC7CF512DDE83B7B863C60 /* Pods-YGN_Tuitions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_Tuitions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_Tuitions/Pods-YGN_Tuitions.debug.xcconfig"; sourceTree = "<group>"; };
+		3DDEACDB5B4ECF43382A6525 /* Pods-YGN_TuitionsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsTests/Pods-YGN_TuitionsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		718663C1EE5E9D22B92772EF /* Pods-YGN_Tuitions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_Tuitions.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_Tuitions/Pods-YGN_Tuitions.release.xcconfig"; sourceTree = "<group>"; };
+		88FD9BC1FD8395321CEE9960 /* Pods_YGN_TuitionsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_TuitionsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF8897DDD69B65F7DBA84B0 /* Pods_YGN_TuitionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_TuitionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64E7DAD45E567313444AECA /* Pods-YGN_TuitionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsUITests/Pods-YGN_TuitionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EA16590220E74F8700C00038 /* YGN_Tuitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGN_Tuitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16590520E74F8700C00038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA16590720E74F8700C00038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		EA16592120E74F8A00C00038 /* YGN_TuitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGN_TuitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16592520E74F8A00C00038 /* YGN_TutionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGN_TutionsUITests.swift; sourceTree = "<group>"; };
 		EA16592720E74F8A00C00038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFE83FD850530CE136B23E3 /* Pods-YGN_TuitionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsUITests/Pods-YGN_TuitionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_Tuitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EA63D2ED40CB9DD8D807611 /* Pods_YGN_Tuitions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF8B34D11C4AC7EF38C88EB /* Pods_YGN_TuitionsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2D2DCD256888EB7BA28EEC /* Pods_YGN_TuitionsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD7D2E98D1788B9F99BFDA4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19FC7CF512DDE83B7B863C60 /* Pods-YGN_Tuitions.debug.xcconfig */,
+				718663C1EE5E9D22B92772EF /* Pods-YGN_Tuitions.release.xcconfig */,
+				3DDEACDB5B4ECF43382A6525 /* Pods-YGN_TuitionsTests.debug.xcconfig */,
+				0AEFBD6B107FD32D1D31883C /* Pods-YGN_TuitionsTests.release.xcconfig */,
+				EDFE83FD850530CE136B23E3 /* Pods-YGN_TuitionsUITests.debug.xcconfig */,
+				C64E7DAD45E567313444AECA /* Pods-YGN_TuitionsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D70199C466E1B8BF67BD5FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */,
+				BDF8897DDD69B65F7DBA84B0 /* Pods_YGN_TuitionsTests.framework */,
+				88FD9BC1FD8395321CEE9960 /* Pods_YGN_TuitionsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EA1658F920E74F8700C00038 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				EA16591920E74F8A00C00038 /* YGN_TutionsTests */,
 				EA16592420E74F8A00C00038 /* YGN_TutionsUITests */,
 				EA16590320E74F8700C00038 /* Products */,
+				CD7D2E98D1788B9F99BFDA4D /* Pods */,
+				D70199C466E1B8BF67BD5FDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA16592A20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_Tuitions" */;
 			buildPhases = (
+				50753220D64E69C9E224A8E1 /* [CP] Check Pods Manifest.lock */,
 				EA1658FE20E74F8700C00038 /* Sources */,
 				EA1658FF20E74F8700C00038 /* Frameworks */,
 				EA16590020E74F8700C00038 /* Resources */,
+				86CF830B7A4CE5F12AF6E7A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA16592D20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TuitionsTests" */;
 			buildPhases = (
+				4CE9BD41977FFF9C33D27702 /* [CP] Check Pods Manifest.lock */,
 				EA16591220E74F8A00C00038 /* Sources */,
 				EA16591320E74F8A00C00038 /* Frameworks */,
 				EA16591420E74F8A00C00038 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA16593020E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TuitionsUITests" */;
 			buildPhases = (
+				29C658992B46AFB94AB442FF /* [CP] Check Pods Manifest.lock */,
 				EA16591D20E74F8A00C00038 /* Sources */,
 				EA16591E20E74F8A00C00038 /* Frameworks */,
 				EA16591F20E74F8A00C00038 /* Resources */,
@@ -250,6 +294,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29C658992B46AFB94AB442FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YGN_TuitionsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CE9BD41977FFF9C33D27702 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YGN_TuitionsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50753220D64E69C9E224A8E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YGN_Tuitions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86CF830B7A4CE5F12AF6E7A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YGN_Tuitions/Pods-YGN_Tuitions-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YGN_Tuitions/Pods-YGN_Tuitions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA1658FE20E74F8700C00038 /* Sources */ = {
@@ -428,6 +547,7 @@
 		};
 		EA16592B20E74F8A00C00038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FC7CF512DDE83B7B863C60 /* Pods-YGN_Tuitions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +567,7 @@
 		};
 		EA16592C20E74F8A00C00038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 718663C1EE5E9D22B92772EF /* Pods-YGN_Tuitions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +587,7 @@
 		};
 		EA16592E20E74F8A00C00038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DDEACDB5B4ECF43382A6525 /* Pods-YGN_TuitionsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +609,7 @@
 		};
 		EA16592F20E74F8A00C00038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEFBD6B107FD32D1D31883C /* Pods-YGN_TuitionsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +631,7 @@
 		};
 		EA16593120E74F8A00C00038 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDFE83FD850530CE136B23E3 /* Pods-YGN_TuitionsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +652,7 @@
 		};
 		EA16593220E74F8A00C00038 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64E7DAD45E567313444AECA /* Pods-YGN_TuitionsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

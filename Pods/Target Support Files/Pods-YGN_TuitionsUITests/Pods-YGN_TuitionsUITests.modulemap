@@ -1,0 +1,6 @@
+framework module Pods_YGN_TuitionsUITests {
+  umbrella header "Pods-YGN_TuitionsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
