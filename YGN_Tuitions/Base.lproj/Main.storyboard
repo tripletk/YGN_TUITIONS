@@ -255,9 +255,7 @@
                         <viewLayoutGuide key="safeArea" id="kse-lm-ZSH"/>
                     </view>
                     <navigationItem key="navigationItem" id="DuU-oS-Pio">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" largeContentSizeImage="menu" id="Yas-pf-CCx">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="600" maxY="0.0"/>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" largeContentSizeImage="menu" id="Yas-pf-CCx"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="Yas-pf-CCx" id="cn8-xJ-nnY"/>
@@ -307,9 +305,7 @@
                     </view>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="never" id="iCu-TO-t83">
                         <barButtonItem key="backBarButtonItem" title="menu" id="Nct-va-TSI"/>
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="WY2-en-yYQ">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="600" maxY="0.0"/>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="WY2-en-yYQ"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="WY2-en-yYQ" id="iMm-mD-G8q"/>
@@ -330,9 +326,7 @@
                         <viewLayoutGuide key="safeArea" id="dah-7d-ygN"/>
                     </view>
                     <navigationItem key="navigationItem" id="EfH-FT-uP8">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="WAS-47-fQU">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="600" maxY="0.0"/>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="WAS-47-fQU"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="WAS-47-fQU" id="NfV-Ey-RfT"/>
@@ -353,9 +347,7 @@
                         <viewLayoutGuide key="safeArea" id="fgl-fP-TmJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="1uf-nf-Hpo">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="5ov-bH-fMU">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="600" maxY="0.0"/>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="5ov-bH-fMU"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="5ov-bH-fMU" id="xHq-zG-Ob1"/>
@@ -376,9 +368,7 @@
                         <viewLayoutGuide key="safeArea" id="9sd-qu-Q8p"/>
                     </view>
                     <navigationItem key="navigationItem" id="iRJ-I2-UC3">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="KE4-jV-vsX">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="600" maxY="0.0"/>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="KE4-jV-vsX"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="KE4-jV-vsX" id="hQv-XA-OCY"/>
@@ -428,9 +418,7 @@
                         <viewLayoutGuide key="safeArea" id="hAh-zk-F3P"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ntx-D4-4wW">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="p5g-bO-Qp7">
-                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="600" maxY="0.0"/>
-                        </barButtonItem>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="p5g-bO-Qp7"/>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="p5g-bO-Qp7" id="q8t-Lx-PQD"/>
@@ -636,11 +624,10 @@
         </scene>
     </scenes>
     <resources>
-        <image name="menu" width="500" height="500"/>
+        <image name="menu" width="50" height="50"/>
         <image name="profile" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Nc5-eD-ibR"/>
         <segue reference="nAT-fy-5yF"/>
     </inferredMetricsTieBreakers>
 </document>
