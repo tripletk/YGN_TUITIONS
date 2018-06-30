@@ -137,9 +137,9 @@
 		EA1658F920E74F8700C00038 = {
 			isa = PBXGroup;
 			children = (
-				EA16590420E74F8700C00038 /* YGN_Tutions */,
-				EA16591920E74F8A00C00038 /* YGN_TutionsTests */,
-				EA16592420E74F8A00C00038 /* YGN_TutionsUITests */,
+				EA16590420E74F8700C00038 /* YGN_Tuitions */,
+				EA16591920E74F8A00C00038 /* YGN_TuitionsTests */,
+				EA16592420E74F8A00C00038 /* YGN_TuitionsUITests */,
 				EA16590320E74F8700C00038 /* Products */,
 				CD7D2E98D1788B9F99BFDA4D /* Pods */,
 				D70199C466E1B8BF67BD5FDE /* Frameworks */,
@@ -156,7 +156,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA16590420E74F8700C00038 /* YGN_Tutions */ = {
+		EA16590420E74F8700C00038 /* YGN_Tuitions */ = {
 			isa = PBXGroup;
 			children = (
 				EA16590520E74F8700C00038 /* AppDelegate.swift */,
@@ -176,25 +176,25 @@
 				EA16593820E7727900C00038 /* YGN_TuitionsTests-Bridging-Header.h */,
 				EA16593920E7727900C00038 /* YGN_TuitionsUITests-Bridging-Header.h */,
 			);
-			path = YGN_Tutions;
+			path = YGN_Tuitions;
 			sourceTree = "<group>";
 		};
-		EA16591920E74F8A00C00038 /* YGN_TutionsTests */ = {
+		EA16591920E74F8A00C00038 /* YGN_TuitionsTests */ = {
 			isa = PBXGroup;
 			children = (
 				EA16591A20E74F8A00C00038 /* YGN_TutionsTests.swift */,
 				EA16591C20E74F8A00C00038 /* Info.plist */,
 			);
-			path = YGN_TutionsTests;
+			path = YGN_TuitionsTests;
 			sourceTree = "<group>";
 		};
-		EA16592420E74F8A00C00038 /* YGN_TutionsUITests */ = {
+		EA16592420E74F8A00C00038 /* YGN_TuitionsUITests */ = {
 			isa = PBXGroup;
 			children = (
 				EA16592520E74F8A00C00038 /* YGN_TutionsUITests.swift */,
 				EA16592720E74F8A00C00038 /* Info.plist */,
 			);
-			path = YGN_TutionsUITests;
+			path = YGN_TuitionsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
