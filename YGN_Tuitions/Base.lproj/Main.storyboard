@@ -44,13 +44,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ThinDan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtt-43-T58">
-                                <rect key="frame" x="155" y="20" width="64" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Tutors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oFo-Zp-NL1">
                                 <rect key="frame" x="16" y="90" width="88" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -67,6 +60,13 @@
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teachers In Your Area" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gg4-fy-qEZ">
                                 <rect key="frame" x="16" y="418" width="167" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ThinDan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mtt-43-T58">
+                                <rect key="frame" x="155" y="29" width="64" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -150,6 +150,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="qlC-TA-jlF" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="dBU-Dm-byX"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Ylg-dL-a2a">
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
@@ -168,7 +171,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="j0D-J2-2Ew" kind="custom" trigger="accessoryAction" customClass="SWRevealViewControllerSeguePushController" id="617-ha-7LD"/>
+                                            <segue destination="j0D-J2-2Ew" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="JDD-ls-Zqx"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="fJ1-XA-eSn">
@@ -298,6 +301,29 @@
             </objects>
             <point key="canvasLocation" x="1087.2" y="807.34632683658174"/>
         </scene>
+        <!--Featured-->
+        <scene sceneID="rI3-g5-gPX">
+            <objects>
+                <viewController title="Featured" id="Bpc-f9-JS8" customClass="FeaturedViewController" customModule="YGN_Tuitions" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ICM-aO-TSj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="dah-7d-ygN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EfH-FT-uP8">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="WAS-47-fQU">
+                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="600" maxY="0.0"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="menuButton" destination="WAS-47-fQU" id="NfV-Ey-RfT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F1r-3n-ra0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1087" y="1575"/>
+        </scene>
         <!--Subjects-->
         <scene sceneID="MBk-DC-nfw">
             <objects>
@@ -319,7 +345,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wgi-N4-KLe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1087.2" y="1590.8545727136434"/>
+            <point key="canvasLocation" x="1087" y="2425"/>
         </scene>
         <!--Teachers In Your Area-->
         <scene sceneID="F7C-K0-L66">
@@ -342,7 +368,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFl-zp-hGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1087.2" y="2354.5727136431788"/>
+            <point key="canvasLocation" x="1087" y="3188"/>
         </scene>
         <!--Accounts-->
         <scene sceneID="pwy-L6-MUl">
@@ -394,7 +420,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ks6-fy-QQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1087.2" y="3118.2908545727137"/>
+            <point key="canvasLocation" x="1087" y="3951"/>
         </scene>
         <!--Register-->
         <scene sceneID="grq-xu-SBg">
@@ -465,7 +491,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="WcA-8X-rzw" kind="presentation" id="kOg-fh-sGy"/>
+                                    <segue destination="ZhW-2M-XXv" kind="show" id="nAT-fy-5yF"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -475,7 +501,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RDt-ve-zaU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1812" y="3117.3913043478265"/>
+            <point key="canvasLocation" x="1812" y="3951"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f9s-77-8eC">
@@ -529,7 +555,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N7B-Wc-Ywf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="148" y="1590.8545727136434"/>
+            <point key="canvasLocation" x="148" y="2425"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yfK-P5-Val">
@@ -547,7 +573,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="do6-7a-zgo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="148" y="2354.5727136431788"/>
+            <point key="canvasLocation" x="148" y="3188"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Dhi-Xc-gIV">
@@ -565,13 +591,31 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vaq-ST-V8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="148" y="3118.2908545727137"/>
+            <point key="canvasLocation" x="148" y="3951"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="oJq-yf-yjR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qlC-TA-jlF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="f5O-0T-Fsa">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Bpc-f9-JS8" kind="relationship" relationship="rootViewController" id="W5h-2L-0Ts"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tmh-R4-ZTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="148" y="1575"/>
         </scene>
     </scenes>
     <resources>
         <image name="menu" width="2000" height="2000"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bB0-j9-f0r"/>
+        <segue reference="J0s-fP-wcZ"/>
     </inferredMetricsTieBreakers>
 </document>
