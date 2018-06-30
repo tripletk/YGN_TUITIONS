@@ -1,22 +1,20 @@
 //
-//  AccountsViewController.swift
+//  SearchViewController.swift
 //  YGN_Tuitions
 //
-//  Created by Timmy Tseng on 6/30/18.
+//  Created by Timmy Tseng on 7/1/18.
 //  Copyright © 2018 Timmy Tseng. All rights reserved.
 //
 
 import UIKit
 
-class AccountsViewController: UIViewController {
+class SearchViewController: UIViewController {
 
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.hideKeyboardWhenTappedAround()
         
-        
-        sideMenus()
+sideMenus()
         
         // Do any additional setup after loading the view.
     }
@@ -42,10 +40,8 @@ class AccountsViewController: UIViewController {
             
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+        
     }
-    
-    
-    
     /*
     // MARK: - Navigation
 

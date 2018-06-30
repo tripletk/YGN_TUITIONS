@@ -31,6 +31,7 @@
 		EA16594C20E789E800C00038 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594B20E789E800C00038 /* FeaturedViewController.swift */; };
 		EA16594E20E7A88100C00038 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594D20E7A88100C00038 /* RegisterViewController.swift */; };
 		EA16595020E7CC8D00C00038 /* BarButtonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594F20E7CC8D00C00038 /* BarButtonLogo.swift */; };
+		EA16595220E7FF6D00C00038 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16595120E7FF6D00C00038 /* SearchViewController.swift */; };
 		EE2D2DCD256888EB7BA28EEC /* Pods_YGN_TuitionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FD9BC1FD8395321CEE9960 /* Pods_YGN_TuitionsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		EA16594B20E789E800C00038 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		EA16594D20E7A88100C00038 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		EA16594F20E7CC8D00C00038 /* BarButtonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonLogo.swift; sourceTree = "<group>"; };
+		EA16595120E7FF6D00C00038 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		EDFE83FD850530CE136B23E3 /* Pods-YGN_TuitionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsUITests/Pods-YGN_TuitionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_Tuitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,6 +170,7 @@
 				EA16590520E74F8700C00038 /* AppDelegate.swift */,
 				EA16590920E74F8700C00038 /* Main.storyboard */,
 				EA16593F20E774C000C00038 /* ViewController.swift */,
+				EA16595120E7FF6D00C00038 /* SearchViewController.swift */,
 				EA16594320E782D100C00038 /* NewTuitionViewController.swift */,
 				EA16594B20E789E800C00038 /* FeaturedViewController.swift */,
 				EA16594520E783B000C00038 /* SubjectsViewController.swift */,
@@ -424,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA16595220E7FF6D00C00038 /* SearchViewController.swift in Sources */,
 				EA16594E20E7A88100C00038 /* RegisterViewController.swift in Sources */,
 				EA16594020E774C000C00038 /* ViewController.swift in Sources */,
 				EA16594620E783B000C00038 /* SubjectsViewController.swift in Sources */,
