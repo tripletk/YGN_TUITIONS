@@ -1,0 +1,3 @@
+[submodule "thindan_backend"]
+	path = thindan_backend
+	url = https://github.com/safsom/thindan_backend
