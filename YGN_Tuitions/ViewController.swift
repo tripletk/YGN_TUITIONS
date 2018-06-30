@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         sideMenus()
-        
+        //customizeNavBar()
         
         // Do any additional setup after loading the view.
     }
@@ -33,6 +33,7 @@ class ViewController: UIViewController {
             menuButton.action = #selector(SWRevealViewController.revealToggle(_:))
             revealViewController().rearViewRevealWidth = 275
             revealViewController().rightViewRevealWidth = 0 //160
+            //UINavigationItem.
             
             
             //alertButton.target = revealViewController()
@@ -46,10 +47,10 @@ class ViewController: UIViewController {
 //    func customizeNavBar() {
 //
 //
-//        navigationController?.navigationBar.tintColor = UIColor(colorLiteralRed: 255/255, green: 255/255, blue: 255/255, alpha: 1)
-//        navigationController?.navigationBar.barTintColor = UIColor(colorLiteralRed: 255/255, green: 87/255, blue: 35/255, alpha: 1)
+//        navigationController?.navigationBar.tintColor = UIColor(displayP3Red: 132.0, green: 112.0, blue: 255.0, alpha: 1.0)
+//        navigationController?.navigationBar.barTintColor = UIColor(red: 132, green: 112, blue: 255, alpha: 1)
 //
-//        navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
+//        navigationController?.navigationBar.titleTextAttributes = [kCTForegroundColorAttributeName: UIColor.blue] as [NSAttributedStringKey : Any]
 //
 //
 //    }

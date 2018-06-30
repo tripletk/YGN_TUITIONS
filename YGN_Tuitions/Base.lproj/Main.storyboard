@@ -7,6 +7,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,7 +19,7 @@
                     <view key="view" contentMode="scaleToFill" id="nWZ-19-Gvt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="pZJ-GG-NZA"/>
                     </view>
                     <connections>
@@ -88,7 +89,9 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1Gd-ao-9tH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" red="0.37149128320000002" green="0.61666619779999998" blue="0.60553294420000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <sections>
                             <tableViewSection id="xfp-Mc-7gt">
                                 <cells>
@@ -119,6 +122,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="pEC-lp-c5N" firstAttribute="leading" secondItem="Cow-4O-PSx" secondAttribute="trailing" constant="8" id="2G6-Ug-3ZU"/>
                                                 <constraint firstItem="pBZ-00-DT3" firstAttribute="leading" secondItem="Cow-4O-PSx" secondAttribute="trailing" constant="8" id="CVB-20-9NZ"/>
@@ -129,6 +133,8 @@
                                                 <constraint firstItem="pBZ-00-DT3" firstAttribute="top" secondItem="pEC-lp-c5N" secondAttribute="bottom" constant="8" id="wZJ-Tj-Nn1"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Jlz-Tp-2V4">
@@ -147,6 +153,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="Dwx-Kk-Gb5" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="zfJ-cH-mkJ"/>
                                         </connections>
@@ -167,6 +174,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.59125632047653198" green="0.74974668025970459" blue="0.74235057830810547" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="qlC-TA-jlF" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="dBU-Dm-byX"/>
                                         </connections>
@@ -187,6 +195,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="j0D-J2-2Ew" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="JDD-ls-Zqx"/>
                                         </connections>
@@ -207,6 +216,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="EvN-7P-Ydk" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="ctG-AE-P4r"/>
                                         </connections>
@@ -227,6 +237,7 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.59125632049999999" green="0.74974668030000002" blue="0.74235057829999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="WcA-8X-rzw" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="bB0-j9-f0r"/>
                                         </connections>
@@ -255,7 +266,12 @@
                         <viewLayoutGuide key="safeArea" id="kse-lm-ZSH"/>
                     </view>
                     <navigationItem key="navigationItem" id="DuU-oS-Pio">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" largeContentSizeImage="menu" id="Yas-pf-CCx"/>
+                        <leftBarButtonItems>
+                            <barButtonItem title="Item" image="Menu Filled-50" largeContentSizeImage="menu" id="Yas-pf-CCx"/>
+                            <barButtonItem title="Item" image="LogoHeader" largeContentSizeImage="LogoHeader" id="lYj-vw-mUU">
+                                <inset key="imageInsets" minX="120" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="Yas-pf-CCx" id="cn8-xJ-nnY"/>
@@ -305,7 +321,12 @@
                     </view>
                     <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="never" id="iCu-TO-t83">
                         <barButtonItem key="backBarButtonItem" title="menu" id="Nct-va-TSI"/>
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="WY2-en-yYQ"/>
+                        <leftBarButtonItems>
+                            <barButtonItem title="Item" image="Menu Filled-50" id="WY2-en-yYQ"/>
+                            <barButtonItem title="Item" image="LogoHeader" largeContentSizeImage="LogoHeader" id="kFZ-ON-RMN">
+                                <inset key="imageInsets" minX="120" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="WY2-en-yYQ" id="iMm-mD-G8q"/>
@@ -326,7 +347,12 @@
                         <viewLayoutGuide key="safeArea" id="dah-7d-ygN"/>
                     </view>
                     <navigationItem key="navigationItem" id="EfH-FT-uP8">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="WAS-47-fQU"/>
+                        <leftBarButtonItems>
+                            <barButtonItem title="Item" image="Menu Filled-50" id="WAS-47-fQU"/>
+                            <barButtonItem title="Item" image="LogoHeader" largeContentSizeImage="LogoHeader" id="jwD-fA-sr9">
+                                <inset key="imageInsets" minX="120" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="WAS-47-fQU" id="NfV-Ey-RfT"/>
@@ -347,7 +373,12 @@
                         <viewLayoutGuide key="safeArea" id="fgl-fP-TmJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="1uf-nf-Hpo">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="5ov-bH-fMU"/>
+                        <leftBarButtonItems>
+                            <barButtonItem title="Item" image="Menu Filled-50" id="5ov-bH-fMU"/>
+                            <barButtonItem title="Item" image="LogoHeader" largeContentSizeImage="LogoHeader" id="sbN-We-7t1">
+                                <inset key="imageInsets" minX="120" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="5ov-bH-fMU" id="xHq-zG-Ob1"/>
@@ -368,7 +399,12 @@
                         <viewLayoutGuide key="safeArea" id="9sd-qu-Q8p"/>
                     </view>
                     <navigationItem key="navigationItem" id="iRJ-I2-UC3">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="KE4-jV-vsX"/>
+                        <leftBarButtonItems>
+                            <barButtonItem title="Item" image="Menu Filled-50" id="KE4-jV-vsX"/>
+                            <barButtonItem title="Item" image="LogoHeader" largeContentSizeImage="LogoHeader" id="52u-qY-7lJ">
+                                <inset key="imageInsets" minX="120" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="KE4-jV-vsX" id="hQv-XA-OCY"/>
@@ -418,7 +454,12 @@
                         <viewLayoutGuide key="safeArea" id="hAh-zk-F3P"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ntx-D4-4wW">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="p5g-bO-Qp7"/>
+                        <leftBarButtonItems>
+                            <barButtonItem title="Item" image="Menu Filled-50" id="p5g-bO-Qp7"/>
+                            <barButtonItem title="Item" image="LogoHeader" largeContentSizeImage="LogoHeader" id="BHY-ra-Ikk">
+                                <inset key="imageInsets" minX="120" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            </barButtonItem>
+                        </leftBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="p5g-bO-Qp7" id="q8t-Lx-PQD"/>
@@ -624,6 +665,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LogoHeader" width="113" height="25"/>
+        <image name="Menu Filled-50" width="24" height="24"/>
         <image name="menu" width="50" height="50"/>
         <image name="profile" width="1024" height="1024"/>
     </resources>
