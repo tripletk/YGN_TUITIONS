@@ -21,9 +21,11 @@ PODS:
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - SwiftSocket (2.0.2)
 
 DEPENDENCIES:
   - Firebase/Core
+  - SwiftSocket
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -33,6 +35,7 @@ SPEC REPOS:
     - FirebaseInstanceID
     - GoogleToolboxForMac
     - nanopb
+    - SwiftSocket
 
 SPEC CHECKSUMS:
   Firebase: d66f4f29c23f22d96808d9abc174d81d8eee968f
@@ -41,7 +44,8 @@ SPEC CHECKSUMS:
   FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
 
-PODFILE CHECKSUM: 5e76158bc9dba80b351eead5370388b58f202365
+PODFILE CHECKSUM: 5db7734b813598650ef823c3e1b41cc4e9e4fe08
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.5.3

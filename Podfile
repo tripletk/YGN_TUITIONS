@@ -8,6 +8,7 @@ target 'YGN_Tuitions' do
   # Pods for YGN_Tuitions
 
 	pod 'Firebase/Core'
+    pod 'SwiftSocket'
 
   target 'YGN_TuitionsTests' do
     inherit! :search_paths
