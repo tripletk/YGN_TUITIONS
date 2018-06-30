@@ -10,7 +10,6 @@
 		0EA63D2ED40CB9DD8D807611 /* Pods_YGN_Tuitions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */; };
 		CBF8B34D11C4AC7EF38C88EB /* Pods_YGN_TuitionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8897DDD69B65F7DBA84B0 /* Pods_YGN_TuitionsTests.framework */; };
 		EA16590620E74F8700C00038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16590520E74F8700C00038 /* AppDelegate.swift */; };
-		EA16590820E74F8700C00038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16590720E74F8700C00038 /* ViewController.swift */; };
 		EA16590B20E74F8700C00038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA16590920E74F8700C00038 /* Main.storyboard */; };
 		EA16590D20E74F8900C00038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA16590C20E74F8900C00038 /* Assets.xcassets */; };
 		EA16591020E74F8900C00038 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA16590E20E74F8900C00038 /* LaunchScreen.storyboard */; };
@@ -19,6 +18,12 @@
 		EA16593420E7574600C00038 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA16593320E7574500C00038 /* GoogleService-Info.plist */; };
 		EA16593520E7574600C00038 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA16593320E7574500C00038 /* GoogleService-Info.plist */; };
 		EA16593620E7574600C00038 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA16593320E7574500C00038 /* GoogleService-Info.plist */; };
+		EA16593C20E7727B00C00038 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA16593B20E7727B00C00038 /* SWRevealViewController.m */; };
+		EA16593D20E7727B00C00038 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA16593B20E7727B00C00038 /* SWRevealViewController.m */; };
+		EA16593E20E7727B00C00038 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA16593B20E7727B00C00038 /* SWRevealViewController.m */; };
+		EA16594020E774C000C00038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16593F20E774C000C00038 /* ViewController.swift */; };
+		EA16594120E774C000C00038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16593F20E774C000C00038 /* ViewController.swift */; };
+		EA16594220E774C000C00038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16593F20E774C000C00038 /* ViewController.swift */; };
 		EE2D2DCD256888EB7BA28EEC /* Pods_YGN_TuitionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FD9BC1FD8395321CEE9960 /* Pods_YGN_TuitionsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +54,6 @@
 		C64E7DAD45E567313444AECA /* Pods-YGN_TuitionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsUITests/Pods-YGN_TuitionsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EA16590220E74F8700C00038 /* YGN_Tuitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGN_Tuitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16590520E74F8700C00038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA16590720E74F8700C00038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA16590A20E74F8700C00038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA16590C20E74F8900C00038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA16590F20E74F8900C00038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,6 +65,12 @@
 		EA16592520E74F8A00C00038 /* YGN_TutionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGN_TutionsUITests.swift; sourceTree = "<group>"; };
 		EA16592720E74F8A00C00038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA16593320E7574500C00038 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EA16593720E7727900C00038 /* YGN_Tuitions-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YGN_Tuitions-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA16593820E7727900C00038 /* YGN_TuitionsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YGN_TuitionsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA16593920E7727900C00038 /* YGN_TuitionsUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YGN_TuitionsUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		EA16593A20E7727B00C00038 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		EA16593B20E7727B00C00038 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		EA16593F20E774C000C00038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDFE83FD850530CE136B23E3 /* Pods-YGN_TuitionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsUITests/Pods-YGN_TuitionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_Tuitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,12 +152,17 @@
 			isa = PBXGroup;
 			children = (
 				EA16590520E74F8700C00038 /* AppDelegate.swift */,
-				EA16590720E74F8700C00038 /* ViewController.swift */,
 				EA16590920E74F8700C00038 /* Main.storyboard */,
+				EA16593F20E774C000C00038 /* ViewController.swift */,
 				EA16590C20E74F8900C00038 /* Assets.xcassets */,
 				EA16590E20E74F8900C00038 /* LaunchScreen.storyboard */,
 				EA16591120E74F8A00C00038 /* Info.plist */,
 				EA16593320E7574500C00038 /* GoogleService-Info.plist */,
+				EA16593A20E7727B00C00038 /* SWRevealViewController.h */,
+				EA16593B20E7727B00C00038 /* SWRevealViewController.m */,
+				EA16593720E7727900C00038 /* YGN_Tuitions-Bridging-Header.h */,
+				EA16593820E7727900C00038 /* YGN_TuitionsTests-Bridging-Header.h */,
+				EA16593920E7727900C00038 /* YGN_TuitionsUITests-Bridging-Header.h */,
 			);
 			path = YGN_Tutions;
 			sourceTree = "<group>";
@@ -242,13 +257,16 @@
 				TargetAttributes = {
 					EA16590120E74F8700C00038 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					EA16591520E74F8A00C00038 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 						TestTargetID = EA16590120E74F8700C00038;
 					};
 					EA16592020E74F8A00C00038 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 						TestTargetID = EA16590120E74F8700C00038;
 					};
 				};
@@ -387,8 +405,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA16590820E74F8700C00038 /* ViewController.swift in Sources */,
+				EA16594020E774C000C00038 /* ViewController.swift in Sources */,
 				EA16590620E74F8700C00038 /* AppDelegate.swift in Sources */,
+				EA16593C20E7727B00C00038 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +415,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA16594120E774C000C00038 /* ViewController.swift in Sources */,
 				EA16591B20E74F8A00C00038 /* YGN_TutionsTests.swift in Sources */,
+				EA16593D20E7727B00C00038 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +425,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA16594220E774C000C00038 /* ViewController.swift in Sources */,
 				EA16592620E74F8A00C00038 /* YGN_TutionsUITests.swift in Sources */,
+				EA16593E20E7727B00C00038 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +585,7 @@
 			baseConfigurationReference = 19FC7CF512DDE83B7B863C60 /* Pods-YGN_Tuitions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
 				INFOPLIST_FILE = YGN_Tutions/Info.plist;
@@ -572,6 +596,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.YGN-Tutions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tutions/YGN_Tuitions-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -582,6 +608,7 @@
 			baseConfigurationReference = 718663C1EE5E9D22B92772EF /* Pods-YGN_Tuitions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
 				INFOPLIST_FILE = YGN_Tutions/Info.plist;
@@ -592,6 +619,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.YGN-Tutions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tutions/YGN_Tuitions-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -603,6 +631,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
 				INFOPLIST_FILE = YGN_TutionsTests/Info.plist;
@@ -613,6 +642,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.YGN-TutionsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tutions/YGN_TuitionsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGN_Tuitions.app/YGN_Tuitions";
@@ -625,6 +656,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
 				INFOPLIST_FILE = YGN_TutionsTests/Info.plist;
@@ -635,6 +667,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.YGN-TutionsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tutions/YGN_TuitionsTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGN_Tuitions.app/YGN_Tuitions";
@@ -646,6 +679,7 @@
 			baseConfigurationReference = EDFE83FD850530CE136B23E3 /* Pods-YGN_TuitionsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
 				INFOPLIST_FILE = YGN_TutionsUITests/Info.plist;
@@ -656,6 +690,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.YGN-TutionsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tutions/YGN_TuitionsUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = YGN_Tutions;
@@ -667,6 +703,7 @@
 			baseConfigurationReference = C64E7DAD45E567313444AECA /* Pods-YGN_TuitionsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
 				INFOPLIST_FILE = YGN_TutionsUITests/Info.plist;
@@ -677,6 +714,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.YGN-TutionsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tutions/YGN_TuitionsUITests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = YGN_Tutions;
