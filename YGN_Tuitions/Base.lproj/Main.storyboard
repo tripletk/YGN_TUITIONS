@@ -443,7 +443,7 @@
         <!--Register-->
         <scene sceneID="grq-xu-SBg">
             <objects>
-                <viewController title="Register" id="Pje-eB-O06" sceneMemberID="viewController">
+                <viewController title="Register" id="Pje-eB-O06" customClass="RegisterViewController" customModule="YGN_Tuitions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gV2-gI-ybX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -640,6 +640,7 @@
         <image name="profile" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Nc5-eD-ibR"/>
         <segue reference="nAT-fy-5yF"/>
     </inferredMetricsTieBreakers>
 </document>
