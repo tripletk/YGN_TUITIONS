@@ -305,11 +305,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="AuP-Rm-kGJ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="iCu-TO-t83">
-                        <barButtonItem key="leftBarButtonItem" title="menu" style="plain" id="vsN-o2-fUn"/>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" largeTitleDisplayMode="never" id="iCu-TO-t83">
+                        <barButtonItem key="backBarButtonItem" title="menu" id="Nct-va-TSI"/>
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="WY2-en-yYQ">
+                            <inset key="imageInsets" minX="0.0" minY="0.0" maxX="600" maxY="0.0"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="menuButton" destination="vsN-o2-fUn" id="Vsu-ik-C8k"/>
+                        <outlet property="menuButton" destination="WY2-en-yYQ" id="iMm-mD-G8q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rWM-ZL-tNK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -628,7 +631,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="menu" width="2000" height="2000"/>
+        <image name="menu" width="500" height="500"/>
         <image name="profile" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
