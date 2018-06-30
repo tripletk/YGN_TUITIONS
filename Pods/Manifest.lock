@@ -16,16 +16,16 @@ PODS:
   - GoogleToolboxForMac/Defines (2.1.4)
   - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
     - GoogleToolboxForMac/Defines (= 2.1.4)
+  - InteractiveSideMenu (2.3)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
-  - SideMenu (3.1.5)
 
 DEPENDENCIES:
   - Firebase/Core
-  - SideMenu
+  - InteractiveSideMenu
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -34,8 +34,8 @@ SPEC REPOS:
     - FirebaseCore
     - FirebaseInstanceID
     - GoogleToolboxForMac
+    - InteractiveSideMenu
     - nanopb
-    - SideMenu
 
 SPEC CHECKSUMS:
   Firebase: 4bd804448ab2596794698773d41520a0af101e65
@@ -43,9 +43,9 @@ SPEC CHECKSUMS:
   FirebaseCore: e46e4babb9de298fb2f736958edcc6da1dc60d73
   FirebaseInstanceID: 83e0040351565df711a5db3d8ebe5ea21aca998a
   GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  InteractiveSideMenu: d503a508c6d62a4d5d4372d9fb9e1795637a8e45
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
 
-PODFILE CHECKSUM: 810f620378e826756dfab26b01665d5bf6a07b4b
+PODFILE CHECKSUM: 3af8cd6eaa4b16281cd52914d814287f4d8957e0
 
 COCOAPODS: 1.5.2
