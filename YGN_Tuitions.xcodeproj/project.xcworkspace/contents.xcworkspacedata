@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YGN_Tutions.xcodeproj">
+      location = "self:/Users/timmytseng/Documents/YGN_Tution/YGN_Tutions/YGN_Tuitions.xcodeproj">
    </FileRef>
 </Workspace>

@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA16590220E74F8700C00038 /* YGN_Tutions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGN_Tutions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA16590220E74F8700C00038 /* YGN_Tuitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGN_Tuitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16590520E74F8700C00038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA16590720E74F8700C00038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EA16590A20E74F8700C00038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA16590C20E74F8900C00038 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA16590F20E74F8900C00038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA16591120E74F8A00C00038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA16591620E74F8A00C00038 /* YGN_TutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGN_TutionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA16591620E74F8A00C00038 /* YGN_TuitionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGN_TuitionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16591A20E74F8A00C00038 /* YGN_TutionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGN_TutionsTests.swift; sourceTree = "<group>"; };
 		EA16591C20E74F8A00C00038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA16592120E74F8A00C00038 /* YGN_TutionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGN_TutionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA16592120E74F8A00C00038 /* YGN_TuitionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YGN_TuitionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16592520E74F8A00C00038 /* YGN_TutionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YGN_TutionsUITests.swift; sourceTree = "<group>"; };
 		EA16592720E74F8A00C00038 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		EA16590320E74F8700C00038 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA16590220E74F8700C00038 /* YGN_Tutions.app */,
-				EA16591620E74F8A00C00038 /* YGN_TutionsTests.xctest */,
-				EA16592120E74F8A00C00038 /* YGN_TutionsUITests.xctest */,
+				EA16590220E74F8700C00038 /* YGN_Tuitions.app */,
+				EA16591620E74F8A00C00038 /* YGN_TuitionsTests.xctest */,
+				EA16592120E74F8A00C00038 /* YGN_TuitionsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA16590120E74F8700C00038 /* YGN_Tutions */ = {
+		EA16590120E74F8700C00038 /* YGN_Tuitions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA16592A20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_Tutions" */;
+			buildConfigurationList = EA16592A20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_Tuitions" */;
 			buildPhases = (
 				EA1658FE20E74F8700C00038 /* Sources */,
 				EA1658FF20E74F8700C00038 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = YGN_Tutions;
+			name = YGN_Tuitions;
 			productName = YGN_Tutions;
-			productReference = EA16590220E74F8700C00038 /* YGN_Tutions.app */;
+			productReference = EA16590220E74F8700C00038 /* YGN_Tuitions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA16591520E74F8A00C00038 /* YGN_TutionsTests */ = {
+		EA16591520E74F8A00C00038 /* YGN_TuitionsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA16592D20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TutionsTests" */;
+			buildConfigurationList = EA16592D20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TuitionsTests" */;
 			buildPhases = (
 				EA16591220E74F8A00C00038 /* Sources */,
 				EA16591320E74F8A00C00038 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				EA16591820E74F8A00C00038 /* PBXTargetDependency */,
 			);
-			name = YGN_TutionsTests;
+			name = YGN_TuitionsTests;
 			productName = YGN_TutionsTests;
-			productReference = EA16591620E74F8A00C00038 /* YGN_TutionsTests.xctest */;
+			productReference = EA16591620E74F8A00C00038 /* YGN_TuitionsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EA16592020E74F8A00C00038 /* YGN_TutionsUITests */ = {
+		EA16592020E74F8A00C00038 /* YGN_TuitionsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA16593020E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TutionsUITests" */;
+			buildConfigurationList = EA16593020E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TuitionsUITests" */;
 			buildPhases = (
 				EA16591D20E74F8A00C00038 /* Sources */,
 				EA16591E20E74F8A00C00038 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				EA16592320E74F8A00C00038 /* PBXTargetDependency */,
 			);
-			name = YGN_TutionsUITests;
+			name = YGN_TuitionsUITests;
 			productName = YGN_TutionsUITests;
-			productReference = EA16592120E74F8A00C00038 /* YGN_TutionsUITests.xctest */;
+			productReference = EA16592120E74F8A00C00038 /* YGN_TuitionsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA1658FD20E74F8700C00038 /* Build configuration list for PBXProject "YGN_Tutions" */;
+			buildConfigurationList = EA1658FD20E74F8700C00038 /* Build configuration list for PBXProject "YGN_Tuitions" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA16590120E74F8700C00038 /* YGN_Tutions */,
-				EA16591520E74F8A00C00038 /* YGN_TutionsTests */,
-				EA16592020E74F8A00C00038 /* YGN_TutionsUITests */,
+				EA16590120E74F8700C00038 /* YGN_Tuitions */,
+				EA16591520E74F8A00C00038 /* YGN_TuitionsTests */,
+				EA16592020E74F8A00C00038 /* YGN_TuitionsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		EA16591820E74F8A00C00038 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA16590120E74F8700C00038 /* YGN_Tutions */;
+			target = EA16590120E74F8700C00038 /* YGN_Tuitions */;
 			targetProxy = EA16591720E74F8A00C00038 /* PBXContainerItemProxy */;
 		};
 		EA16592320E74F8A00C00038 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA16590120E74F8700C00038 /* YGN_Tutions */;
+			target = EA16590120E74F8700C00038 /* YGN_Tuitions */;
 			targetProxy = EA16592220E74F8A00C00038 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -481,7 +481,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGN_Tutions.app/YGN_Tutions";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGN_Tuitions.app/YGN_Tuitions";
 			};
 			name = Debug;
 		};
@@ -502,7 +502,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGN_Tutions.app/YGN_Tutions";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YGN_Tuitions.app/YGN_Tuitions";
 			};
 			name = Release;
 		};
@@ -549,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA1658FD20E74F8700C00038 /* Build configuration list for PBXProject "YGN_Tutions" */ = {
+		EA1658FD20E74F8700C00038 /* Build configuration list for PBXProject "YGN_Tuitions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA16592820E74F8A00C00038 /* Debug */,
@@ -558,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA16592A20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_Tutions" */ = {
+		EA16592A20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_Tuitions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA16592B20E74F8A00C00038 /* Debug */,
@@ -567,7 +567,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA16592D20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TutionsTests" */ = {
+		EA16592D20E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TuitionsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA16592E20E74F8A00C00038 /* Debug */,
@@ -576,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA16593020E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TutionsUITests" */ = {
+		EA16593020E74F8A00C00038 /* Build configuration list for PBXNativeTarget "YGN_TuitionsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA16593120E74F8A00C00038 /* Debug */,
