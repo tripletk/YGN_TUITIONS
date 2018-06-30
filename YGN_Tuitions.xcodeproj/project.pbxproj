@@ -606,7 +606,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
-				INFOPLIST_FILE = YGN_Tutions/Info.plist;
+				INFOPLIST_FILE = YGN_Tuitions/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -614,7 +614,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.YGN-Tutions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tutions/YGN_Tuitions-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tuitions/YGN_Tuitions-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -629,7 +629,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2PYA34AW5V;
-				INFOPLIST_FILE = YGN_Tutions/Info.plist;
+				INFOPLIST_FILE = YGN_Tuitions/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -637,7 +637,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "timmytseng.YGN-Tutions";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tutions/YGN_Tuitions-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tuitions/YGN_Tuitions-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
