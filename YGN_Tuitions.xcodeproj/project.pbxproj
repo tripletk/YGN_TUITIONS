@@ -30,6 +30,7 @@
 		EA16594A20E784E000C00038 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594920E784E000C00038 /* AccountsViewController.swift */; };
 		EA16594C20E789E800C00038 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594B20E789E800C00038 /* FeaturedViewController.swift */; };
 		EA16594E20E7A88100C00038 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594D20E7A88100C00038 /* RegisterViewController.swift */; };
+		EA16595020E7CC8D00C00038 /* BarButtonLogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594F20E7CC8D00C00038 /* BarButtonLogo.swift */; };
 		EE2D2DCD256888EB7BA28EEC /* Pods_YGN_TuitionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FD9BC1FD8395321CEE9960 /* Pods_YGN_TuitionsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -83,6 +84,7 @@
 		EA16594920E784E000C00038 /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
 		EA16594B20E789E800C00038 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		EA16594D20E7A88100C00038 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		EA16594F20E7CC8D00C00038 /* BarButtonLogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarButtonLogo.swift; sourceTree = "<group>"; };
 		EDFE83FD850530CE136B23E3 /* Pods-YGN_TuitionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsUITests/Pods-YGN_TuitionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_Tuitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -172,6 +174,7 @@
 				EA16594720E7844F00C00038 /* AreasViewController.swift */,
 				EA16594920E784E000C00038 /* AccountsViewController.swift */,
 				EA16594D20E7A88100C00038 /* RegisterViewController.swift */,
+				EA16594F20E7CC8D00C00038 /* BarButtonLogo.swift */,
 				EA16590C20E74F8900C00038 /* Assets.xcassets */,
 				EA16590E20E74F8900C00038 /* LaunchScreen.storyboard */,
 				EA16591120E74F8A00C00038 /* Info.plist */,
@@ -437,6 +440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA16595020E7CC8D00C00038 /* BarButtonLogo.swift in Sources */,
 				EA16594120E774C000C00038 /* ViewController.swift in Sources */,
 				EA16591B20E74F8A00C00038 /* YGN_TutionsTests.swift in Sources */,
 				EA16593D20E7727B00C00038 /* SWRevealViewController.m in Sources */,
@@ -621,7 +625,7 @@
 				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tuitions/YGN_Tuitions-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -643,7 +647,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "YGN_Tuitions/YGN_Tuitions-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

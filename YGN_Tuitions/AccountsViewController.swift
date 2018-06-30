@@ -13,9 +13,13 @@ class AccountsViewController: UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.hideKeyboardWhenTappedAround()
+        
         
         sideMenus()
         
+        //let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        //view.addGestureRecognizer(tap)
         // Do any additional setup after loading the view.
     }
 
@@ -41,6 +45,12 @@ class AccountsViewController: UIViewController {
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
     }
+    
+    //override func dismissKeyboard() { //For Keyboard. Added override
+    //    //Causes the view (or one of its embedded text fields) to resign the first responder status.
+    //    view.endEditing(true)
+    //}
+    
     /*
     // MARK: - Navigation
 

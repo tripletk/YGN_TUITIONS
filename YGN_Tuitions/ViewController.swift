@@ -13,7 +13,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
+        
         sideMenus()
         //customizeNavBar()
         
@@ -24,6 +26,10 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+//    func imageResize() {
+//        if
+//    }
     
     func sideMenus() {
         
