@@ -24,6 +24,10 @@
 		EA16594020E774C000C00038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16593F20E774C000C00038 /* ViewController.swift */; };
 		EA16594120E774C000C00038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16593F20E774C000C00038 /* ViewController.swift */; };
 		EA16594220E774C000C00038 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16593F20E774C000C00038 /* ViewController.swift */; };
+		EA16594420E782D100C00038 /* NewTuitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594320E782D100C00038 /* NewTuitionViewController.swift */; };
+		EA16594620E783B000C00038 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594520E783B000C00038 /* SubjectsViewController.swift */; };
+		EA16594820E7844F00C00038 /* AreasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594720E7844F00C00038 /* AreasViewController.swift */; };
+		EA16594A20E784E000C00038 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16594920E784E000C00038 /* AccountsViewController.swift */; };
 		EE2D2DCD256888EB7BA28EEC /* Pods_YGN_TuitionsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88FD9BC1FD8395321CEE9960 /* Pods_YGN_TuitionsUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +75,10 @@
 		EA16593A20E7727B00C00038 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		EA16593B20E7727B00C00038 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		EA16593F20E774C000C00038 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA16594320E782D100C00038 /* NewTuitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTuitionViewController.swift; sourceTree = "<group>"; };
+		EA16594520E783B000C00038 /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		EA16594720E7844F00C00038 /* AreasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreasViewController.swift; sourceTree = "<group>"; };
+		EA16594920E784E000C00038 /* AccountsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
 		EDFE83FD850530CE136B23E3 /* Pods-YGN_TuitionsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsUITests/Pods-YGN_TuitionsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_Tuitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -154,6 +162,10 @@
 				EA16590520E74F8700C00038 /* AppDelegate.swift */,
 				EA16590920E74F8700C00038 /* Main.storyboard */,
 				EA16593F20E774C000C00038 /* ViewController.swift */,
+				EA16594320E782D100C00038 /* NewTuitionViewController.swift */,
+				EA16594520E783B000C00038 /* SubjectsViewController.swift */,
+				EA16594720E7844F00C00038 /* AreasViewController.swift */,
+				EA16594920E784E000C00038 /* AccountsViewController.swift */,
 				EA16590C20E74F8900C00038 /* Assets.xcassets */,
 				EA16590E20E74F8900C00038 /* LaunchScreen.storyboard */,
 				EA16591120E74F8A00C00038 /* Info.plist */,
@@ -404,7 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA16594020E774C000C00038 /* ViewController.swift in Sources */,
+				EA16594620E783B000C00038 /* SubjectsViewController.swift in Sources */,
 				EA16590620E74F8700C00038 /* AppDelegate.swift in Sources */,
+				EA16594820E7844F00C00038 /* AreasViewController.swift in Sources */,
+				EA16594420E782D100C00038 /* NewTuitionViewController.swift in Sources */,
+				EA16594A20E784E000C00038 /* AccountsViewController.swift in Sources */,
 				EA16593C20E7727B00C00038 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
