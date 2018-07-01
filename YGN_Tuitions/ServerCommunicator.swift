@@ -13,10 +13,12 @@ var client: TCPClient?
 
 func connectToServer(host: String, port: Int32) -> Bool {
     client = TCPClient(address: host, port: port)
-    switch client.unsafelyUnwrapped.connect(timeout: -1) {
-    case .success:
+    switch client?.connect(timeout: 20) {
+    case .success?:
         return true
-    default:
+    case .failure?:
+        return false
+    case .none:
         return false
     }
 }

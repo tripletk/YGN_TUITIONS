@@ -9,7 +9,33 @@
 import UIKit
 
 class RegisterViewController: UIViewController {
-
+    @IBOutlet weak var usenameField: UITextField!
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    @IBOutlet weak var townshipField: UITextField!
+    @IBOutlet weak var subjectField: UITextField!
+    @IBOutlet weak var teacherStatusField: UISwitch!
+    
+    
+    @IBAction func onSlide(_ sender: Any) {
+        if teacherStatusField.isOn {
+            townshipField.isUserInteractionEnabled = true
+            subjectField.isUserInteractionEnabled = true
+        } else {
+            townshipField.isUserInteractionEnabled = false
+            subjectField.isUserInteractionEnabled = false
+        }
+    }
+    
+    @IBAction func onRegisterPressed(_ sender: Any) {
+        let status = register(username: usenameField.text!, password: passwordField.text!, email: emailField.text!, isTeacher: teacherStatusField.isOn, township: townshipField.text!, subject: subjectField.text!)
+        if !status {
+            print("failed!")
+        } else {
+            print("success!")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
