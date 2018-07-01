@@ -486,6 +486,16 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jUt-7f-YMp">
+                                <rect key="frame" x="54" y="406" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Reviews"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="njc-kJ-27X">
+                                <rect key="frame" x="270" y="406" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Contacts"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="x9J-hX-ICk"/>
@@ -502,7 +512,59 @@
                     <view key="view" contentMode="scaleToFill" id="VgZ-Cm-Hmb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLM-88-3f0">
+                                <rect key="frame" x="0.0" y="143" width="375" height="30"/>
+                                <state key="normal" title="Biology"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dZn-Xo-yRk">
+                                <rect key="frame" x="0.0" y="206" width="375" height="30"/>
+                                <state key="normal" title="Physics"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qw1-fN-lds">
+                                <rect key="frame" x="0.0" y="262" width="375" height="30"/>
+                                <state key="normal" title="English"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MkR-ka-0PF">
+                                <rect key="frame" x="0.0" y="333" width="375" height="30"/>
+                                <state key="normal" title="Chinese"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rL4-Xt-WQX">
+                                <rect key="frame" x="0.0" y="405" width="375" height="30"/>
+                                <state key="normal" title="Burmese"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHh-cR-N7o">
+                                <rect key="frame" x="0.0" y="490" width="375" height="30"/>
+                                <state key="normal" title="Economics"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rt5-dv-FXm">
+                                <rect key="frame" x="0.0" y="563" width="375" height="30"/>
+                                <state key="normal" title="Chemistry"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k25-1K-DqO">
+                                <rect key="frame" x="0.0" y="86" width="375" height="30"/>
+                                <state key="normal" title="Maths"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fgl-fP-TmJ" firstAttribute="trailing" secondItem="aLM-88-3f0" secondAttribute="trailing" id="7gf-xh-rWD"/>
+                            <constraint firstItem="MkR-ka-0PF" firstAttribute="leading" secondItem="fgl-fP-TmJ" secondAttribute="leading" id="8a6-Xk-Ot5"/>
+                            <constraint firstItem="rL4-Xt-WQX" firstAttribute="leading" secondItem="fgl-fP-TmJ" secondAttribute="leading" id="DE5-i7-k0i"/>
+                            <constraint firstItem="fgl-fP-TmJ" firstAttribute="trailing" secondItem="rL4-Xt-WQX" secondAttribute="trailing" id="EDx-JB-VBY"/>
+                            <constraint firstItem="k25-1K-DqO" firstAttribute="leading" secondItem="fgl-fP-TmJ" secondAttribute="leading" id="KCa-vz-liG"/>
+                            <constraint firstItem="fgl-fP-TmJ" firstAttribute="trailing" secondItem="ZHh-cR-N7o" secondAttribute="trailing" id="TVx-Wj-9Bs"/>
+                            <constraint firstItem="dZn-Xo-yRk" firstAttribute="leading" secondItem="fgl-fP-TmJ" secondAttribute="leading" id="V9W-mv-iZ0"/>
+                            <constraint firstItem="fgl-fP-TmJ" firstAttribute="trailing" secondItem="Qw1-fN-lds" secondAttribute="trailing" id="Yee-mj-T6g"/>
+                            <constraint firstItem="ZHh-cR-N7o" firstAttribute="leading" secondItem="fgl-fP-TmJ" secondAttribute="leading" id="Zqe-Mo-H2x"/>
+                            <constraint firstItem="fgl-fP-TmJ" firstAttribute="trailing" secondItem="dZn-Xo-yRk" secondAttribute="trailing" id="evP-Uz-Tzq"/>
+                            <constraint firstItem="aLM-88-3f0" firstAttribute="leading" secondItem="fgl-fP-TmJ" secondAttribute="leading" id="i57-NH-NEk"/>
+                            <constraint firstItem="fgl-fP-TmJ" firstAttribute="trailing" secondItem="rt5-dv-FXm" secondAttribute="trailing" id="iFE-Ou-A7T"/>
+                            <constraint firstItem="fgl-fP-TmJ" firstAttribute="trailing" secondItem="k25-1K-DqO" secondAttribute="trailing" id="o19-1T-TKs"/>
+                            <constraint firstItem="fgl-fP-TmJ" firstAttribute="trailing" secondItem="MkR-ka-0PF" secondAttribute="trailing" id="tdf-e6-GD8"/>
+                            <constraint firstItem="rt5-dv-FXm" firstAttribute="leading" secondItem="fgl-fP-TmJ" secondAttribute="leading" id="vDQ-uX-s78"/>
+                            <constraint firstItem="Qw1-fN-lds" firstAttribute="leading" secondItem="fgl-fP-TmJ" secondAttribute="leading" id="zI9-Vx-ccY"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fgl-fP-TmJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="1uf-nf-Hpo">
@@ -528,6 +590,12 @@
                     <view key="view" contentMode="scaleToFill" id="FLZ-3N-iWg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fakeMap" translatesAutoresizingMaskIntoConstraints="NO" id="JK3-UC-BkU">
+                                <rect key="frame" x="0.0" y="64" width="375" height="502"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="9sd-qu-Q8p"/>
                     </view>
@@ -545,7 +613,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GFl-zp-hGH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1892" y="3978"/>
+            <point key="canvasLocation" x="1892" y="3977.3613193403303"/>
         </scene>
         <!--Accounts-->
         <scene sceneID="pwy-L6-MUl">
@@ -949,6 +1017,7 @@
         <image name="a4" width="361" height="127"/>
         <image name="a4profile" width="375" height="667"/>
         <image name="buttonLong" width="690" height="88"/>
+        <image name="fakeMap" width="750" height="990"/>
         <image name="homePage" width="750" height="1334"/>
         <image name="menu" width="50" height="50"/>
         <image name="profile" width="1024" height="1024"/>
