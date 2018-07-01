@@ -16,7 +16,8 @@ func connectToServer(host: String, port: Int32) -> Bool {
     switch client?.connect(timeout: 20) {
     case .success?:
         return true
-    case .failure?:
+    case .failure(let error)?:
+        print(error)
         return false
     case .none:
         return false
