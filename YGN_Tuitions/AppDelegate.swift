@@ -31,7 +31,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
-        //let server = connectToServer(host: "localhost", port: 80)
+        let server = connectToServer(host: "localhost", port: 80)
+        if !server {
+            print("connection failed")
+        }
         
         return true
     }
