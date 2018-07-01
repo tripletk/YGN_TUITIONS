@@ -11,7 +11,7 @@ import SwiftSocket
 
 var client: TCPClient?
 
-func connectToServer(host: String, port: Int32) -> Bool {
+public func connectToServer(host: String, port: Int32) -> Bool {
     client = TCPClient(address: host, port: port)
     switch client?.connect(timeout: 20) {
     case .success?:
@@ -24,7 +24,7 @@ func connectToServer(host: String, port: Int32) -> Bool {
     }
 }
 
-func login(username: String, password: String) -> Bool {
+public func serverLogin(username: String, password: String) -> Bool {
     let request: Data = "login \"\(username)\" \"\(password)\"".data(using: .ascii)!
     _ = client?.send(data: request)
     let response = client?.read(64)
@@ -32,7 +32,7 @@ func login(username: String, password: String) -> Bool {
     return resultStr == "LoginComplete"
 }
 
-func register(username: String, password: String, email: String, isTeacher: Bool, township: String, subject: String) -> Bool {
+public func serverRegister(username: String, password: String, email: String, isTeacher: Bool, township: String, subject: String) -> Bool {
     let request: Data = "register \"\(username)\" \"\(password)\" \(email) \(isTeacher) \"\(township)\" \"\(subject)\" ".data(using: .ascii)!
     _ = client?.send(data: request)
     let response = client?.read(64)
@@ -40,10 +40,10 @@ func register(username: String, password: String, email: String, isTeacher: Bool
     return resultStr == "RegisterComplete"
 }
 
-func review(teacherUsername: String, studentUsername: String, review: String) -> Bool {
+public func review(teacherUsername: String, studentUsername: String, review: String) -> Bool {
     return true
 }
 
-func retrieve(teacherUsername: String, studentUsername: String) -> String {
+public func retrieve(teacherUsername: String, studentUsername: String) -> String {
     return ""
 }

@@ -28,7 +28,7 @@ class RegisterViewController: UIViewController {
     }
     
     @IBAction func onRegisterPressed(_ sender: Any) {
-        let status = register(username: usenameField.text!, password: passwordField.text!, email: emailField.text!, isTeacher: teacherStatusField.isOn, township: townshipField.text!, subject: subjectField.text!)
+        let status = serverRegister(username: usenameField.text!, password: passwordField.text!, email: emailField.text!, isTeacher: teacherStatusField.isOn, township: townshipField.text!, subject: subjectField.text!)
         if !status {
             print("failed!")
         } else {

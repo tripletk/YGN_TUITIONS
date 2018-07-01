@@ -28,12 +28,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        let a = connectToServer(host: "localhost", port: 8080)
-        if !a {
-            print("failed to connect to server!")
-        }
+        
+        let server = connectToServer(host: "localhost", port: 80)
+        
         return true
-
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

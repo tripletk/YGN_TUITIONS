@@ -9,7 +9,20 @@
 import UIKit
 
 class AccountsViewController: UIViewController {
-
+    @IBOutlet weak var usernameField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
+    
+    @IBAction func onLoginClick(_ sender: Any) {
+        let status = serverLogin(username: usernameField.text!, password: passwordField!.text!)
+        if !status {
+            let alert = UIAlertController(title: "Failed", message: "Login failed", preferredStyle: UIAlertControllerStyle.alert)
+            alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        } else {
+            
+        }
+    }
+    
     @IBOutlet weak var menuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()

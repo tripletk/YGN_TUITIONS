@@ -495,13 +495,16 @@
                                 <rect key="frame" x="168" y="233" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="onLoginClick:" destination="ZhW-2M-XXv" eventType="touchUpInside" id="5IU-ck-1rK"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ot-ON-AUW">
                                 <rect key="frame" x="159" y="271" width="57" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Register"/>
                                 <connections>
-                                    <segue destination="Pje-eB-O06" kind="show" id="icb-Rc-kyl"/>
+                                    <segue destination="Pje-eB-O06" kind="presentation" id="y2n-Rx-jrf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -518,6 +521,9 @@
                     </navigationItem>
                     <connections>
                         <outlet property="menuButton" destination="p5g-bO-Qp7" id="q8t-Lx-PQD"/>
+                        <outlet property="onLoginPress" destination="wEz-7f-M3R" id="mix-ZG-gYu"/>
+                        <outlet property="passwordField" destination="GlK-py-k2r" id="u9s-TD-Cew"/>
+                        <outlet property="usernameField" destination="5YW-Pb-ro7" id="Sun-Xw-pmB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ks6-fy-QQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -637,12 +643,13 @@
                         <viewLayoutGuide key="safeArea" id="B60-p0-YWo"/>
                     </view>
                     <connections>
-                        <outlet property="emailField" destination="y7l-cQ-t5I" id="rsc-7Z-6zd"/>
+                        <outlet property="emailField" destination="y7l-cQ-t5I" id="aIZ-cz-dH3"/>
                         <outlet property="password" destination="oKU-sB-HK9" id="Nbv-qk-6jt"/>
+                        <outlet property="passwordField" destination="oKU-sB-HK9" id="KKk-9H-Zrs"/>
                         <outlet property="subjectField" destination="UDb-Hh-GlW" id="KuU-2O-vxK"/>
                         <outlet property="teacherStatusField" destination="rDa-vt-Ked" id="ypb-SU-NWc"/>
                         <outlet property="townshipField" destination="aYM-Py-gxP" id="JWY-k5-uLQ"/>
-                        <outlet property="usenameField" destination="2PK-JJ-tmc" id="97b-MO-saN"/>
+                        <outlet property="usenameField" destination="2PK-JJ-tmc" id="sqB-bw-7GZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RDt-ve-zaU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -815,6 +822,7 @@
         <image name="profile" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="y2n-Rx-jrf"/>
         <segue reference="awg-Zh-Rpx"/>
         <segue reference="TmP-Yg-TfG"/>
         <segue reference="BUH-Gk-SJL"/>
