@@ -2,49 +2,45 @@
 //  ServerCommunicator.swift
 //  YGN_Tuitions
 //
-//  Created by Safal Aryal on 30/06/2018.
+//  Created by Safal Aryal on 01/07/2018.
 //  Copyright © 2018 Timmy Tseng. All rights reserved.
 //
 
 import Foundation
+import SwiftSocket
 
-let max: UInt32 = 4096
+var client: TCPClient?
 
-var input: InputStream!
-var output: OutputStream!
-
-func serverInit(address: String, port: UInt32) {
-    var readStream: Unmanaged<CFReadStream>?
-    var writeStream: Unmanaged<CFWriteStream>?
-    
-    CFStreamCreatePairWithSocketToHost(kCFAllocatorDefault, address as CFString, port, &readStream, &writeStream)
-    
-    input = readStream!.takeRetainedValue()
-    output = writeStream!.takeRetainedValue()
-    
-    input.schedule(in: .current, forMode: .commonModes)
-    output.schedule(in: .current, forMode: .commonModes)
-    
-    input.open()
-    output.open()
+func connectToServer(host: String, port: Int32) -> Bool {
+    client = TCPClient(address: host, port: port)
+    switch client.unsafelyUnwrapped.connect(timeout: -1) {
+    case .success:
+        return true
+    default:
+        return false
+    }
 }
 
-func serverLogin(username: String, password: String) -> Bool {
-    let request = "login \(username) \(password)".data(using: .ascii)!
-    _ = request.withUnsafeBytes{  output.write($0, maxLength: request.count)}
-    let response = UnsafeMutablePointer<UInt8>.allocate(capacity: 64)
-    input.read(response, maxLength: 64)
-    let resStr = String(cString: response)
-    print(resStr)
-    return resStr == "LoginComplete"
+func login(username: String, password: String) -> Bool {
+    let request: Data = "login \"\(username)\" \"\(password)\"".data(using: .ascii)!
+    _ = client?.send(data: request)
+    let response = client?.read(64)
+    let resultStr = String(bytes: response!, encoding: .ascii)
+    return resultStr == "LoginComplete"
 }
 
-func serverRegister(username: String, email: String, password: String, isTeacher: Bool) -> Bool {
-    let request = "register \(username) \(email) \(password) \(isTeacher)".data(using: .ascii)!
-    _ = request.withUnsafeBytes{ output.write($0, maxLength: request.count)}
-    let response = UnsafeMutablePointer<UInt8>.allocate(capacity: 64)
-    input.read(response, maxLength: 64)
-    let resStr = String(cString: response)
-    print(resStr)
-    return resStr == "RegisterComplete"
+func register(username: String, password: String, email: String, isTeacher: Bool, township: String, subject: String) -> Bool {
+    let request: Data = "register \"\(username)\" \"\(password)\" \(email) \(isTeacher) \"\(township)\" \"\(subject)\" ".data(using: .ascii)!
+    _ = client?.send(data: request)
+    let response = client?.read(64)
+    let resultStr = String(bytes: response!, encoding: .ascii)
+    return resultStr == "RegisterComplete"
+}
+
+func review(teacherUsername: String, studentUsername: String, review: String) -> Bool {
+    return true
+}
+
+func retrieve(teacherUsername: String, studentUsername: String) -> String {
+    return ""
 }
