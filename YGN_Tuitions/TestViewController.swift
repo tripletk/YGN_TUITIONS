@@ -1,42 +1,36 @@
 //
-//  AccountsViewController.swift
-//  YGN_Tuitions
+//  TestViewController.swift
+//  
 //
-//  Created by Timmy Tseng on 6/30/18.
-//  Copyright © 2018 Timmy Tseng. All rights reserved.
+//  Created by Timmy Tseng on 7/1/18.
 //
 
 import UIKit
 
-class AccountsViewController: UIViewController {
-    
+class TestViewController: UIViewController {
+
     @IBOutlet weak var menuButton: UIBarButtonItem!
-    
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+sideMenus()
+        // Do any additional setup after loading the view.
+    }
 
-    @IBAction func onLoginClick(_ sender: Any) {
+    @IBAction func onLoginClick(_ sender: UIButton) {
         let status = serverLogin(username: usernameField.text!, password: passwordField!.text!)
         if !status {
             let alert = UIAlertController(title: "Failed", message: "Login failed", preferredStyle: UIAlertControllerStyle.alert)
             alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler: nil))
             self.present(alert, animated: true, completion: nil)
         } else {
-
+            
         }
     }
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        self.hideKeyboardWhenTappedAround()
-        
-        
-        sideMenus()
-        
-        // Do any additional setup after loading the view.
-    }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -58,10 +52,9 @@ class AccountsViewController: UIViewController {
             
             view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+        
     }
-    
-    
-    
+
     /*
     // MARK: - Navigation
 

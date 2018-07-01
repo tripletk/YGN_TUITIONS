@@ -29,7 +29,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        let server = connectToServer(host: "localhost", port: 80)
+        FirebaseApp.configure()
+        
+        //let server = connectToServer(host: "localhost", port: 80)
         
         return true
     }

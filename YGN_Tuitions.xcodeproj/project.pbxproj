@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0EA63D2ED40CB9DD8D807611 /* Pods_YGN_Tuitions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8575F6579CBBBA7E121801E /* Pods_YGN_Tuitions.framework */; };
 		CBF8B34D11C4AC7EF38C88EB /* Pods_YGN_TuitionsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF8897DDD69B65F7DBA84B0 /* Pods_YGN_TuitionsTests.framework */; };
+		EA1122D620E89F6B00733889 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1122D520E89F6B00733889 /* TestViewController.swift */; };
 		EA16590620E74F8700C00038 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA16590520E74F8700C00038 /* AppDelegate.swift */; };
 		EA16590B20E74F8700C00038 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA16590920E74F8700C00038 /* Main.storyboard */; };
 		EA16590D20E74F8900C00038 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA16590C20E74F8900C00038 /* Assets.xcassets */; };
@@ -61,6 +62,7 @@
 		88FD9BC1FD8395321CEE9960 /* Pods_YGN_TuitionsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_TuitionsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF8897DDD69B65F7DBA84B0 /* Pods_YGN_TuitionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YGN_TuitionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64E7DAD45E567313444AECA /* Pods-YGN_TuitionsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YGN_TuitionsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YGN_TuitionsUITests/Pods-YGN_TuitionsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EA1122D520E89F6B00733889 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		EA16590220E74F8700C00038 /* YGN_Tuitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YGN_Tuitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA16590520E74F8700C00038 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA16590A20E74F8700C00038 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			children = (
 				EA16590520E74F8700C00038 /* AppDelegate.swift */,
 				EA16590920E74F8700C00038 /* Main.storyboard */,
+				EA1122D520E89F6B00733889 /* TestViewController.swift */,
 				EA16593F20E774C000C00038 /* ViewController.swift */,
 				EA16595120E7FF6D00C00038 /* SearchViewController.swift */,
 				EA16594320E782D100C00038 /* NewTuitionViewController.swift */,
@@ -442,6 +445,7 @@
 				EA16594420E782D100C00038 /* NewTuitionViewController.swift in Sources */,
 				EA16594A20E784E000C00038 /* AccountsViewController.swift in Sources */,
 				EA16594C20E789E800C00038 /* FeaturedViewController.swift in Sources */,
+				EA1122D620E89F6B00733889 /* TestViewController.swift in Sources */,
 				EA16593C20E7727B00C00038 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
